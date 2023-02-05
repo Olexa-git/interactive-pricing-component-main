@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script defer type="text/javascript" src="script/script.js"></script>
+  
+</head>
+<body>
+  <header>
+    <img class="header_background" alt="light-grey background" src="images/bg-pattern.svg">
+    <img class="header_circles" alt="abstract circles" src="images/pattern-circles.svg">
+    <div class="header_sign">
+       <h1>Simple, traffic-based pricing</h1>
+       <h5>Sign-up for our 30-day trial. No credit card required.</h5>
+    </div>
+  </header>
+  <article>
+    <div class="prising_box">
+      <p class="pageviews" id="pageviews">100K PAGEVIEWS</p>
+      <p class="usd_price" id="usd_price">$16.00</p>
+      <p class="period_month" id="period_month">/ month</p>
+      <p class="period_year invisible" id="period_year">/ year</p>
+      <div class="scale" id="scale">
+        <div class="scale_ball" id="scale_ball">
+          <img alt="arrows in scale slider" src="images/icon-slider.svg">
+        </div>
+      </div>
+      <div class="period_toggle_section">
+        <p>Monthly Billing</p>
+        <div class="period_toggle" id="period_toggle">
+          <div class="toggle_circle" id="toggle_circle"></div>
+        </div>
+        <p>Yearly Billing</p>
+      </div>
+      <p class="discount_desk invisible" id="discount_desk">25% discount</p>
+      <p class="discount_mob invisible" id="discount_mob">-25%</p>
+      <div class="bottom_section">
+        <ul class="bottom_section_advantage">
+          <li>
+            <img alt="green check mark" src="images/icon-check.svg">
+            <p>Unlimited websites</p>
+          </li>
+          <li>
+            <img alt="green check mark" src="images/icon-check.svg">
+            <p>100% data ownership</p>
+          </li>
+          <li>
+            <img alt="green check mark" src="images/icon-check.svg">
+            <p>Email reports</p>
+          </li>
+        </ul>
+        <button>Start my trial</button>
+      </div>
+    </div>
+  </article>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Olexa-git">Olexa</a>.
+  </div>
+</body>
+</html>
